@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadImg", "LoadImg\LoadImg.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 OpenCV Basic", "01 OpenCV Basic", "{8D781D6B-C2D4-45E8-BCE0-7DBE56E7E5A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Image data structure", "02 Image data structure", "{A26B50F7-BA69-4C3B-A506-5AC0E1BE07BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RowRangeDemo", "RowRangeDemo\RowRangeDemo.vcxproj", "{7121D73A-E747-4CFB-857A-D7E0EA891037}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,11 +37,20 @@ Global
 		{1438BBCF-60D1-4890-BB91-F5F48CBA247B}.Release|x64.Build.0 = Release|x64
 		{1438BBCF-60D1-4890-BB91-F5F48CBA247B}.Release|x86.ActiveCfg = Release|Win32
 		{1438BBCF-60D1-4890-BB91-F5F48CBA247B}.Release|x86.Build.0 = Release|Win32
+		{7121D73A-E747-4CFB-857A-D7E0EA891037}.Debug|x64.ActiveCfg = Debug|x64
+		{7121D73A-E747-4CFB-857A-D7E0EA891037}.Debug|x64.Build.0 = Debug|x64
+		{7121D73A-E747-4CFB-857A-D7E0EA891037}.Debug|x86.ActiveCfg = Debug|Win32
+		{7121D73A-E747-4CFB-857A-D7E0EA891037}.Debug|x86.Build.0 = Debug|Win32
+		{7121D73A-E747-4CFB-857A-D7E0EA891037}.Release|x64.ActiveCfg = Release|x64
+		{7121D73A-E747-4CFB-857A-D7E0EA891037}.Release|x64.Build.0 = Release|x64
+		{7121D73A-E747-4CFB-857A-D7E0EA891037}.Release|x86.ActiveCfg = Release|Win32
+		{7121D73A-E747-4CFB-857A-D7E0EA891037}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1438BBCF-60D1-4890-BB91-F5F48CBA247B} = {8D781D6B-C2D4-45E8-BCE0-7DBE56E7E5A5}
+		{7121D73A-E747-4CFB-857A-D7E0EA891037} = {A26B50F7-BA69-4C3B-A506-5AC0E1BE07BE}
 	EndGlobalSection
 EndGlobal
