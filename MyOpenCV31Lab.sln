@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyOpenCV31Lab", "MyOpenCV31
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoadImg", "LoadImg\LoadImg.vcxproj", "{1438BBCF-60D1-4890-BB91-F5F48CBA247B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 OpenCV Basic", "01 OpenCV Basic", "{8D781D6B-C2D4-45E8-BCE0-7DBE56E7E5A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1438BBCF-60D1-4890-BB91-F5F48CBA247B} = {8D781D6B-C2D4-45E8-BCE0-7DBE56E7E5A5}
 	EndGlobalSection
 EndGlobal

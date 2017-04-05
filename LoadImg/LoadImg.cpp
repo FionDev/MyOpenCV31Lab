@@ -22,5 +22,6 @@ int main()
 	imshow("lena",img);
 	waitKey(0);
     return 0;
+
 }
 
