@@ -28,13 +28,14 @@ int main(int /*argc*/, char** /*argv*/)
 	const int height = 480;
 	Mat img(height, width, CV_8UC3);
 	RNG rng(clock());
-	int k, clusterCount = 4;
-	int i, sampleCount = 20;
+	int k, clusterCount = 4;//分群數
+	int i, sampleCount = 20;//產生點
 	int memberSize = sampleCount / clusterCount;
 	Mat points(sampleCount, 1, CV_32FC2); // dimensions = sampleCount*2
 	Mat labels;    // 
 	Mat centers;
 	float stdX = 0.05, stdY = 0.05;
+	//產生亂數的資料點
 	/* generate random sample from multigaussian distribution */
 	for (k = 0; k < clusterCount; k++)
 	{ 
