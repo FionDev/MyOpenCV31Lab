@@ -24,6 +24,7 @@ int main()
 	//imgSrc = imread("rectangle.jpg", CV_LOAD_IMAGE_UNCHANGED);
 	//imgSrc = imread("polygonColor.jpg", CV_LOAD_IMAGE_UNCHANGED);
 	imgSrc = imread("convexSample.jpg", CV_LOAD_IMAGE_UNCHANGED);
+	
 
 	if (!imgSrc.data)
 	{

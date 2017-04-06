@@ -18,7 +18,7 @@ int main()
 	//imgSrc = imread("star.jpg", CV_LOAD_IMAGE_UNCHANGED);
 	//imgSrc = imread("rectangle.jpg", CV_LOAD_IMAGE_UNCHANGED);
 	imgSrc = imread("polygon.jpg", CV_LOAD_IMAGE_UNCHANGED);
-
+	
 	if (!imgSrc.data)
 	{
 		cout << "找不到檔案!" << endl;
@@ -31,9 +31,9 @@ int main()
 	vector<Vec4i> hierarchy;
 	RNG rng(clock());
 	//找外輪廓 CV_RETR_EXTERNAL
-	//findContours(imgBW, contours, hierarchy, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_SIMPLE);
+	findContours(imgBW, contours, hierarchy, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_SIMPLE);
 	//找內外輪廓 RETR_TREE
-	findContours(imgBW, contours, hierarchy, RETR_TREE, CV_CHAIN_APPROX_SIMPLE);
+	//findContours(imgBW, contours, hierarchy, RETR_TREE, CV_CHAIN_APPROX_SIMPLE);
 	//找內輪廓 RETR_CCOMP
 	//findContours(imgBW, contours, hierarchy, RETR_CCOMP, CV_CHAIN_APPROX_SIMPLE);
 

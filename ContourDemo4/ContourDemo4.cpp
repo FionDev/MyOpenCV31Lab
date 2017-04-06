@@ -37,7 +37,7 @@ int main()
 	}
 
 	cvtColor(imgSrc, imgG, CV_BGR2GRAY);
-	threshold(imgG, imgBW, 20, 255, THRESH_BINARY);
+	threshold(imgG, imgBW, 100, 255, THRESH_BINARY);
 	vector<vector<Point>> contours;
 	vector<Vec4i> hierarchy;
 
