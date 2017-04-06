@@ -48,7 +48,7 @@ int main(int argc, char** argv)
 	namedWindow("Erosion", CV_WINDOW_AUTOSIZE);
 	namedWindow("Dilation", CV_WINDOW_AUTOSIZE);
 	cvMoveWindow("Erosion", imgSrc.cols, 0);
-	cvMoveWindow("Dilation", 2 * imgSrc.cols, 0);
+	cvMoveWindow("Dilation", 2 * imgSrc.cols, 0);//2 * imgSrc.cols ¬°for¼e¿Ã¹õ
 	imshow("Color", imgSrc);
 	/// Create Erosion Trackbar
 	createTrackbar("Elem 0~2", "Erosion", &erosionElem, maxElem, Erosion);
